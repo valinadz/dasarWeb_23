@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Pemandangan Alam</title>
+    <!-- Menyisipkan Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Menyisipkan JavaScript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <style>
+        body {
+            background-color: #f0f8ff;
+            color: #333;
+        }
+        .navbar {
+            background-color: #008080;
+        }
+        .navbar a {
+            color: #fff;
+        }
+        .hero-image {
+            background-image: url('https://via.placeholder.com/1600x800?text=Pemandangan+Alam');
+            background-size: cover;
+            background-position: center;
+            height: 350px; /* Kurangi tinggi */
+            color: green;
+            text-align: center;
+            padding: 50px 20px; /* Sesuaikan padding */
+            max-width: 1000px; /* Batasi lebar maksimum */
+            margin: 20px auto; /* Tambahkan jarak di atas dan bawah */
+            border-radius: 10px; /* Sudut membulat */
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); /* Tambahkan bayangan */
+        }
+
+        .hero-image h1 {
+            font-size: 2.5rem; /* Ukuran font lebih besar */
+            font-weight: bold;
+            color: #ffd700; /* Warna emas untuk teks judul */
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Efek bayangan */
+        }
+
+        .hero-image p {
+            font-size: 1.2rem;
+            color: #f8f9fa; /* Warna abu-abu terang */
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5); /* Efek bayangan */
+            margin-top: 10px;
+        }
+
+
+
+        .container {
+            margin-top: 30px;
+            max-width: 1000px; /* Set maximum width */
+            width: 90%; /* Ensure it is responsive but not too wide */
+        }
+
+        .card img {
+            border-radius: 10px;
+        }
+        .footer {
+            background-color: #008080;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-md">
+        <a class="navbar-brand" href="#">Pemandangan Alam</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Destinasi</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Galeri</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Kontak</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Image / Pemandangan -->
+    <div class="hero-image">
+        <h1>Selamat Datang di Dunia Pemandangan Alam</h1>
+        <p>Temukan keindahan alam yang mempesona di setiap sudut dunia.</p>
+    </div>
+
+    <!-- Galeri Pemandangan -->
+    <div class="container">
+        <h2 class="text-center">Galeri Pemandangan Alam</h2>
+        <div class="row">
+            <!-- Gambar 1 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/gambar1.jpg" class="card-img-top" alt="Pemandangan 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Gunung dan Hutan</h5>
+                        <p class="card-text">Nikmati pemandangan gunung yang megah dan hutan yang hijau.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Gambar 2 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/gambar2.jpg" class="card-img-top" alt="Pemandangan 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Pantai dan Laut</h5>
+                        <p class="card-text">Rasakan ketenangan di tepi pantai dengan deburan ombak yang menenangkan.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Gambar 3 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/gambar3.jpg" class="card-img-top" alt="Pemandangan 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Matahari Terbenam</h5>
+                        <p class="card-text">Saksikan keindahan matahari terbenam yang menakjubkan.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <p>&copy; 2025 Pemandangan Alam | Semua Hak Dilindungi</p>
+    </div>
+
+</body>
+</html>

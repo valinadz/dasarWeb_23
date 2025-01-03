@@ -1,0 +1,27 @@
+/* Styling for the form */
+form {
+    margin: 20px 0;
+}
+
+/* Styling for input and button inside the form */
+form input, form button {
+    padding: 5px;
+}
+
+/* Styling for the table */
+table {
+    width: 100%;
+    margin-bottom: 20px;
+    border-collapse: collapse;
+}
+
+/* Styling for table, th, td */
+table, th, td {
+    border: 1px solid #cdcdcd;
+}
+
+/* Styling for table th and td */
+table th, table td {
+    padding: 10px;
+    text-align: left;
+}

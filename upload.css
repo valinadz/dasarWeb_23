@@ -1,0 +1,63 @@
+/* Styling untuk container form */
+.upload-form-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #cce;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+/* Heading form */
+h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+/* Container untuk input file */
+.file-input-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+/* Styling untuk input file */
+.file-input {
+    display: none; /* Menyembunyikan input asli */
+}
+
+/* Label untuk input file */
+.file-label {
+    background: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Styling untuk tombol upload */
+.upload-button {
+    background: #2ecc71;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    opacity: 0.5; /* Opacity saat tombol tidak aktif */
+}
+
+/* Mengubah warna tombol saat non-aktif */
+.upload-button:disabled {
+    background: #ccc;
+    cursor: not-allowed;
+}
+
+/* Status upload */
+.upload-status {
+    margin-top: 20px;
+    font-weight: bold;
+    color: #333;
+}
